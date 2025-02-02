@@ -9,7 +9,7 @@ color changes depending on Notification type
 ## Framer Motion used to add entry and exit animation
 
 #### Features that needed to be added next
-1. if User clicks on addning notification button before timer clears --> manage this situation
+1. if User clicks on adding notification button before timer clears --> manage this situation
     --> desired outcome : the previous notification translates up allowing space for the current
     notification to take its place
     A separate component called Notification Queue might be required to maintain this state
