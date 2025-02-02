@@ -1,0 +1,58 @@
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+    .container{
+        height: 100vh;
+        width: 100%;
+        background-color: #111111;
+        color:white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap:2rem;
+    }
+    h1{
+        font-size: 6rem;
+        letter-spacing: -0.3rem;
+        font-family: "Graphik";
+    }
+
+    .showCounter{
+        margin:1rem;
+        background-color: rgb(101, 10, 28);
+        color: white;
+        padding: 1rem;
+        font-size: 3rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+    }
+
+    .button{
+        font-size: 2rem;
+        padding:0.7rem 1rem;
+        letter-spacing: -0.1rem;
+        outline: none;
+        border: none;
+        background-color: bisque;
+        color: black;
+        margin: 1rem;
+        font-weight: 500;
+        border-radius: 10px;
+        text-align: center;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        cursor: pointer;
+        min-width: 4rem;
+
+        &:hover{
+            filter: hue-rotate(90deg);
+            color: rgb(37, 3, 3);
+        }
+    }
+    
