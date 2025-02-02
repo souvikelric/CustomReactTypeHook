@@ -1,6 +1,6 @@
 # React Custom Hook using typescript
-# custom Hook to show notifications when button is pressed
-## the main hook is useNotification.tsx
+# Custom Hook to show notifications when button is pressed
+## The main hook file is useNotification.tsx
 All types have been added to make sure that each notification can be triggered safely
 ### Couple of separate types of notifications provided
 Check allowed notification types mentioned in useNotification
